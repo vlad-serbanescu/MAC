@@ -9,7 +9,7 @@ w - the number of active objects inside the Actor, also the degree of parallelis
 
 The application measures the performance on a logarithmic scale starting from one actor, up to the maximum number of actors given by the first argument. and outputs the results in a file:
 
-n_3*m.out:
+n_3*m.out
 
 1 execution time (miliseconds)
 10 execution time (miliseconds)
