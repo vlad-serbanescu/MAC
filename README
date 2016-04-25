@@ -1,0 +1,15 @@
+Multi Actor Bank Service Example.
+
+The code can be opened as an eclipse project.
+
+To run the application runs with 3 arguments
+n - the maximum number of accounts that will request operations from the bank service
+m - number of data locked operations (in sets of 3), each account will perform a set of operations (withdraw, deposit, checkSavings) * this argument
+w - the number of active objects inside the Actor also the degree of parallelism.
+
+The application measures the performance on a logarithmic scale starting from one actor, up to the maximum number of actors given by the first argument. and outputs the results in a file:
+
+n_3*m.out
+
+
+ The application is still under development and any feedback can be sent to vlad.serbanescu@cwi.nl.
